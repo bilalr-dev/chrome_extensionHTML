@@ -1,0 +1,24 @@
+{
+    "manifest_version": 3,
+    "name": "HTML Sender",
+    "version": "1.0",
+    "description": "Send the HTML of the active page to a given server.",
+    "permissions": ["activeTab"],
+    "action": {
+      "default_popup": "popup.html",
+      "default_icon": {
+        "16": "images/icon16.png",
+        "64": "images/icon64.png"
+      }
+    },
+    "icons": {
+      "16": "images/icon16.png",
+      "64": "images/icon64.png"
+    },
+    "background": {
+      "service_worker": "bg.js"
+    }
+  }
+  
+
+  
